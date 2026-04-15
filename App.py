@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("BASAVARAJ_AI Content Generator", layout="wide")
 st.title("BGK_AI – Content Generator")
-st.image("BGK_Transperent.jpg")
+st.image("BGK_Transperent.jpg.png")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 product = st.text_input("Product")
 audience = st.text_input("Audience")
